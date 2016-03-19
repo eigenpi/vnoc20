@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+print "\n Sweep injection rate for SelfSimilar traffic, base case. \n";
+print " run vnoc \n";
+
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.0001 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_101.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.0005 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_102.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.001 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_103.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.003 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_104.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.005 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_105.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.006 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_106.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.007 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_107.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.008 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_108.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.009 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_109.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.010 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_110.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.011 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_111.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.012 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_112.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.013 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_113.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.014 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_114.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.015 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_115.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.016 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_116.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.017 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_117.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.018 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_118.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.019 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_119.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.020 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_120.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.021 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_121.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.025 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_122.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.030 cycles: 100000 do_dvfs: 0 use_boost: 0 > ../results/self_base/self_base_123.out";
+
+print "\n Done!";

@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+
+print "\n Sweep injection rate for SelfSimilar traffic, hist window 50, uses boost freq. also. \n";
+print " run vnoc \n";
+
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.0001  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_101.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.0005  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_102.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.001  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_103.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.003  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_104.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.005  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_105.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.006  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_106.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.007  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_107.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.008  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_108.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.009  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_109.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.010  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_110.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.011  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_111.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.012  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_112.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.013  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_113.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.014  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_114.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.015  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_115.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.016  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_116.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.017  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_117.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.018  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_118.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.019  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_119.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.020  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_120.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.021  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_121.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.025  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_122.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.030  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_123.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.031  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_124.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.032  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_125.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.033  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_126.out";
+system "vnoc traffic: SELFSIMILAR ary_size: 8 injection_rate: 0.035  cycles: 100000 do_dvfs: 1 use_boost: 1 hist_window: 50 > ../results/self_boost_hw_50/self_boost_hw_50_127.out";
+
+print "\n Done!";
